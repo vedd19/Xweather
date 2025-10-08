@@ -76,7 +76,7 @@ function App() {
     <div className="App">
 
       <form onSubmit={(e) => handleSearch(e)} style={{ height: "30px", width: '400px', display: "flex", justifyContent: 'space-evenly', alignItems: 'center' }}>
-        <input name='city' style={{ height: "100%", width: '70%' }} type='text' />
+        <input placeholder='Enter city name' name='city' style={{ height: "100%", width: '70%' }} type='text' />
         <button style={{ textAlign: 'center', borderRadius: "4px", backgroundColor: 'lightgreen', border: 'none', height: "100%", padding: '0.5rem', color: 'white', fontWeight: 'bold' }} type='submit'>Search</button>
       </form>
 
